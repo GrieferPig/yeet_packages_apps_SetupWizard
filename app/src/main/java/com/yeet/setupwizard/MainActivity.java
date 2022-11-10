@@ -1,14 +1,13 @@
 package com.yeet.setupwizard;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.ViewFlipper;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     ViewFlipper vf;
     LinearLayout btn_navGroup;
@@ -22,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        vf = findViewById(R.id.vf);
-        btn_navGroup = findViewById(R.id.btn_navGroup);
+        vf = (ViewFlipper) findViewById(R.id.vf);
+        btn_navGroup = (LinearLayout) findViewById(R.id.btn_navGroup);
     }
 
     public void onWelcomeNextClick(View v){
