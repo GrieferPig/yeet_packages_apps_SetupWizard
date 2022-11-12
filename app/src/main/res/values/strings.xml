@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">设置向导</string>
+    <string name="back">后退</string>
+    <string name="cont">继续</string>
+    <string name="welcome_to_use_yeetos">欢迎使用YeetOS</string>
+    <string name="start">开始</string>
+    <string name="text_placeholder">PLACEHOLDER</string>
+    <string name="yeetos_setup_wizard">YeetOS 设置向导</string>
 </resources>

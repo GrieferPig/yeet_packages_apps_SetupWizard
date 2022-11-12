@@ -52,7 +52,7 @@
             android:layout_marginEnd="2dp"
             android:layout_weight="1"
             android:onClick="gotoPrevPage"
-            android:text="后退"
+            android:text="@string/back"
             app:cornerRadius="20dp" />
 
         <Button
@@ -63,7 +63,7 @@
             android:layout_marginEnd="2dp"
             android:layout_weight="1"
             android:onClick="gotoNextPage"
-            android:text="继续"
+            android:text="@string/cont"
             app:cornerRadius="20dp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
